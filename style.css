@@ -1,0 +1,74 @@
+label{
+    font-size: large;
+}
+#user_name{
+width:450;
+
+}
+h4{
+    color:yellow ;
+}
+#login-button{
+    width: 200;
+    border-radius: 50px;
+}
+h1{
+    color: purple;
+}
+body{
+    background: linear-gradient(to right top, #F5CC00, #FFD60A, #FFDD33, #FFE047, #FFE770);
+}
+input{
+    width:70%;
+    
+}
+#color_white{
+    text-align: center;
+     color: red;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label{
+    color: purple;
+    font-family: cursive;
+}
+#output
+{
+	padding: 10px; 
+    text-align: center;
+    width: 70%;
+}
+.room_name{
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#logout_button{
+    font-size: large;
+    font-family: sans-serif;
+    float: left;
+}
+.input_div_message_page{
+position:fixed;
+bottom: 0px;
+background-color:orangered;
+width: 100%;
+text-align: center;
+}
+
+.input_div_message_page #msg{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   text-align: left;
+}.input_div_message_page label
+{
+	color: whitesmoke;
+}
+
+.input_div_message_page button
+{
+margin-top: 15px;
+width: 50%;
+ }

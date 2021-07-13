@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>kwitter room</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     
+    </head>
+    <body>
+       <div class="container">
+        <button id="logout_button" class="glyphicon glyphicon-log-in btn btn-danger" onclick="logout()">Logout</button>;
+       <center>
+        <h1>Let's web-chat app</h1>
+        <br>
+        <img src="download.png">
+        <br><br>
+        <div id="output" style="text-align: left;margin-top: 30px;margin-bottom: 70px;width: 70%;" class="btn btn-danger"></div>
+       </center>
+       <center>
+    </div>
+           <div class="input_div_message_page">
+               <label>Send</label>
+               <br>
+               <input type="text" id="msg" placeholder="Type Your message here">
+               <button onclick="send()" class="btn btn-primary">Send</button>
+               
+           
+       </center>       
+        </div>
+    </body>
+    <script src="kwitter_room.js"></script>
+</html>
